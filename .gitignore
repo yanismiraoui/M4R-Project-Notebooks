@@ -1,0 +1,8 @@
+*.csv
+*.tsv
+*.txt
+Data/
+DeepTCR-master/
+public/
+tcr-bert/
+Tutorial/
