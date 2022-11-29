@@ -116,6 +116,7 @@ def model_results(df, X_test, encoder, label="label", mode_complex=True):
         df[label] = df["CDR3_al"].apply(lambda x: x[:5])
     elif label == "j_gene":
         df[label] = df["j_gene"].apply(lambda x: x.split("-")[0])
+
     
     labels = []
     labels_encoder = LabelEncoder()
@@ -136,6 +137,8 @@ def model_results(df, X_test, encoder, label="label", mode_complex=True):
         principalComponents = pca.fit_transform(X_test_encode)
         plot_X_test = principalComponents
     else:
+        if isinstance(X_test, list):
+            X_test = X_test[0]
         X_test_encode = encoder.predict(X_test[:N])
         plot_X_test = X_test_encode.copy()
 
