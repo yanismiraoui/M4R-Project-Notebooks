@@ -1,8 +1,14 @@
 *.csv
 *.tsv
 *.txt
+*.pkl
 Data/
 DeepTCR-master/
 public/
 tcr-bert/
 Tutorial/
+pgm_master/
+PGM/
+pyrepseq-main/
+_pycache_/
+elife-68605-supp1-v2.xlsx
