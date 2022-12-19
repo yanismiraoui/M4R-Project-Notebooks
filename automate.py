@@ -97,6 +97,7 @@ def train_model_complex(df, X_train, params={}):
 
     # Return encoder part of the model
     encoder = Model(inputs=[cdr3_input, v_gene_input, j_gene_input], outputs=bottleneck)
+    decoder = Model(inputs=bottleneck, outputs=output)
 
     #Plot the history loss of the model
     plt.plot(history.history['loss'], label='complex model', color='blue')
@@ -105,7 +106,7 @@ def train_model_complex(df, X_train, params={}):
     plt.show()
 
 
-    return model, encoder
+    return model, encoder, decoder
 
 
 
