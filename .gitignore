@@ -5,6 +5,10 @@
 *.pyc
 Data/
 DeepTCR-master/
+data_deeptcr/
+data_deeptcr_small/
+encoders/
+OLGA_test/
 public/
 tcr-bert/
 Tutorial/
