@@ -2,6 +2,7 @@
 *.tsv
 *.txt
 *.pkl
+*.pyc
 Data/
 DeepTCR-master/
 public/
@@ -13,3 +14,5 @@ pyrepseq-main/
 _pycache_/
 covid19/
 elife-68605-supp1-v2.xlsx
+.DS_Store
+*.zip

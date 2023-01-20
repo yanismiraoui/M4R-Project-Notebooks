@@ -93,7 +93,7 @@ def train_model_complex(df, X_train, params={}):
     print(model.summary())
 
     # fit the autoencoder model to reconstruct input
-    history = model.fit(X_train, X_train, epochs=10, batch_size=64, verbose=1)
+    history = model.fit(X_train, X_train, epochs=params["epochs"], batch_size=64, verbose=1)
 
     # Return encoder part of the model
     encoder = Model(inputs=[cdr3_input, v_gene_input, j_gene_input], outputs=bottleneck)
