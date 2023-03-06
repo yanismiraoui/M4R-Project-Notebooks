@@ -100,7 +100,7 @@ def train_model_complex(df, X_train, params={}):
     decoder = Model(inputs=bottleneck, outputs=output)
 
     #Plot the history loss of the model
-    plt.plot(history.history['loss'], label='complex model', color='blue')
+    plt.plot(history.history['loss'][10:], label='complex model', color='blue')
     plt.title('Model loss')
     plt.legend()
     plt.show()
