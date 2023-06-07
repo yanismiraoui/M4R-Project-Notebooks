@@ -1,6 +1,5 @@
 *.csv
 *.tsv
-*.txt
 *.pkl
 *.pyc
 Data/
@@ -22,3 +21,5 @@ elife-68605-supp1-v2.xlsx
 *.zip
 rbm_tcell/
 *.ipynb_checkpoints
+images/
+models/

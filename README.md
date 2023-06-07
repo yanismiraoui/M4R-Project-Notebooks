@@ -3,3 +3,8 @@
 My investigation focused on the analysis of different unsupervised techniques in order to accurately cluster similar TCR sequences (i.e. sequences with a similar antigen specificity). 🫁🫀
 
 Please note that the notebooks were used as exploratory tools 🔍.
+
+Legend: 
+The name of the notebooks start with a number that indicates the order in which these techniques and methods are discussed in the research paper. Note that "A" corresponds to extra notebooks not directly relevant to the analysis.
+
+The **automate.py** file contains some essential functions that automate the pipelime for model building and results plotting. This simplifies readability and usage of our different modelling techniques.
