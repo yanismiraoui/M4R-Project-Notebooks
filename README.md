@@ -12,3 +12,5 @@ The **automate.py** file contains some essential functions that automate the pip
 Here is a link to a web application that shows how perform the different deep learning methods: 
 
 :link: <a  style="display: inline;"  href="https://m4r-dash.yanismiraoui.repl.co/"> Website of the demo
+
+:link: <a  style="display: inline;"  href="https://github.com/yanismiraoui/M4R-dash/"> GitHub repo of the demo
